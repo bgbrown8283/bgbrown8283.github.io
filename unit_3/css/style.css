@@ -1,0 +1,27 @@
+body {
+	text-align: center;
+	background: #F0B27A;
+	font-family: Helvetica;
+}
+h1	{
+	color: #17202A;
+	font-family: Arial;
+	font-size: 72px;
+}
+
+	img {
+		align:left;
+	}
+
+#slogan {
+	color: #A04000;
+	font-style: italic;
+	font-size: 48px;
+}
+p {
+	font-size: 28px;
+}
+ul {
+	text-align: left;
+	font-size: 22px;
+}
