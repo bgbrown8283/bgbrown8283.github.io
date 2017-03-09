@@ -3,8 +3,34 @@
 body {
 	text-align: center;
 	background: #F0B27A;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'PT Sans', sans-serif;	
 }
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+article { 
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+footer{ 
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+ }	
+
 h1	{
 	color: #17202A;
 	font-family: 'Baloo', cursive;
@@ -23,10 +49,6 @@ h2	{
 	line-height: 1em;
 	margin: 23px;
 }
-h3	{
-	text-align:center;
-	text-decoration: underline;
-}
 
 #slogan {
 	color: #A04000;
@@ -39,12 +61,13 @@ p {
 	font-size: 24px;
 	font-family: 'PT Sans', sans-serif;
 	margin: 6px;
-
 }
 ul {
-    list-style-type: none;
-    font-size: 28px;
-    margin: 0;
-    padding: 0;
+  list-style: none;
 }
+
+li {
+  display: inline;
+  margin: 35px;
+  font-size: 26px;
 }
