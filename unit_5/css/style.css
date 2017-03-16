@@ -1,38 +1,81 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo|PT+Sans');
 
 body {
-	text-align: center;
 	background: #F0B27A;
-	font-family: 'PT Sans', sans-serif;	
+	font-family: 'PT Sans', sans-serif;
+	background-image: url('../images/bagel.jpg');
+	text-decoration-color: white;	
+	background-size:cover;
 }
 header {
-	background-color: #FFED74;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 20px;	
+  	text-align: center;
 }
 nav {
 	background-color: #E8C66A;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 5px;
+	display: block;
+	float: none;
+	text-decoration: none;	
+	text-align: center;
+}
+nav a{
+	text-decoration: none;
+	color: #ff8000;
+	display: inline-block;
+	text-align: center;
+}
+a:hover {
+	background-color: orange;
 }
 article { 
-	background-color: #E89C6C;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 10px;
+	text-align: center;
+	
 }
 section {
-	background-color: #FFE2B8;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 10px;
+}
+
+#two_column {
+    border: 1px black solid;
+    padding: 10px;
+}
+
+#left {
+    border: 1px black solid;
+    padding: 10px;
+    float: left;
+    width: 48%;
+}    
+
+#location {
+    padding: 5px;
+    float: right;   
+    width: 48%;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 footer{ 
-	background-color: #FF957E;
+	color: white;
 	border: 1px black solid;
 	padding: 20px;
+	text-align: center;
+	text-decoration: none;
  }	
 
 h1	{
-	color: #17202A;
+	color: white;
 	font-family: 'Baloo', cursive;
 	font-size: 99px;
 	line-height: 1.7em;
@@ -45,22 +88,26 @@ hr 	{
 		margin:10px;
 }
 h2	{
+	color: white;
 	font-family: 'PT Sans', sans-serif
 	line-height: 1em;
 	margin: 23px;
 }
 
 #slogan {
-	color: #A04000;
+	color: white;
 	font-style: italic;
 	font-size: 44px;
 	line-height: .1em;
 	margin: 22px;
 }
 p {
+	color: white;
 	font-size: 24px;
 	font-family: 'PT Sans', sans-serif;
 	margin: 6px;
+	text-align: center;
+
 }
 ul {
   list-style: none;
