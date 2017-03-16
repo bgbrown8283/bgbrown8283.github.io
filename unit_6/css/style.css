@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo|PT+Sans');
+
+body {
+	background: #F0B27A;
+	font-family: 'PT Sans', sans-serif;
+	background-image: url('../images/bagel.jpg');
+	text-decoration-color: white;	
+	background-size:cover;
+}
+header {
+	border: 1px black solid;
+	padding: 20px;	
+  	text-align: center;
+}
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 5px;
+	display: block;
+	float: none;
+	text-decoration: none;	
+	text-align: center;
+}
+nav a{
+	text-decoration: none;
+	color: #ff8000;
+	display: inline-block;
+	text-align: center;
+}
+a:hover {
+	background-color: orange;
+}
+article { 
+	border: 1px black solid;
+	padding: 10px;
+	text-align: center;
+	
+}
+section {
+	border: 1px black solid;
+	padding: 10px;
+}
+
+#two_column {
+    border: 1px black solid;
+    padding: 10px;
+}
+
+#left {
+    border: 1px black solid;
+    padding: 10px;
+    float: left;
+    width: 48%;
+}    
+
+#location {
+    padding: 5px;
+    float: right;   
+    width: 48%;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+footer{ 
+	color: white;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+ }	
+
+h1	{
+	color: white;
+	font-family: 'Baloo', cursive;
+	font-size: 99px;
+	line-height: 1.7em;
+	margin: 10px;
+}
+hr 	{
+		height: 5px;
+		background-color:white;
+		line-height: .5em;
+		margin:10px;
+}
+h2	{
+	color: white;
+	font-family: 'PT Sans', sans-serif
+	line-height: 1em;
+	margin: 23px;
+}
+
+#slogan {
+	color: white;
+	font-style: italic;
+	font-size: 44px;
+	line-height: .1em;
+	margin: 22px;
+}
+p {
+	color: white;
+	font-size: 24px;
+	font-family: 'PT Sans', sans-serif;
+	margin: 6px;
+	text-align: center;
+
+}
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+  margin: 35px;
+  font-size: 26px;
+}
